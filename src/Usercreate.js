@@ -52,7 +52,7 @@ function Usercreate() {
                 <div className="col-lg-6">
                   <label>Name</label>
                   <input
-                    className="form-control"
+                    className="form-control mb-2"
                     onChange={formik.handleChange}
                     value={formik.values.name}
                     name="name"
